@@ -1,0 +1,106 @@
+@media only screen and (max-width: 800px) {
+
+   /* Force table to not be like tables anymore */
+   #user-list table, #about-us table, #blog-list table,
+   #user-list thead, #about-us thead, #blog-list thead,
+   #user-list tbody, #about-us tbody, #blog-list tbody,
+   #user-list th, #about-us th, #blog-list th,
+   #user-list td, #about-us td, #blog-list td,
+   #user-list tr, #about-us tr  #blog-list tr {
+      display: block;
+   }
+
+   /* Hide table headers (but not display: none;, for accessibility) */
+   #user-list thead tr,
+   #about-us  thead tr,
+   #blog-list thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+   }
+
+   #user-list tr,
+   #about-us  tr,
+   #blog-list tr {
+      border: 1px solid #ccc;
+   }
+
+   #user-list td,
+   #about-us  td,
+   #blog-list td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      white-space: normal;
+      text-align: left;
+   }
+
+   #user-list td:before,
+   #about-us  td:before,
+   #blog-list td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top:   6px;
+      left:  6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+      font-weight: bold;
+   }
+
+   /*
+   Label the data
+   */
+   #user-list td:before,
+   #about-us  td:before,
+   #blog-list td:before {
+      content: attr(data-title);
+   }
+
+   #user-list .table-striped thead,
+   #about-us  .table-striped thead,
+   #blog-list .table-striped thead {
+      background-color: #ddd;
+   }
+
+   #about-us  .table-striped tbody tr:nth-of-type( odd ),
+   #user-list .table-striped tbody:nth-of-type( odd ) tr,
+   #blog-list .table-striped tbody tr:nth-of-type( odd ) {
+      background-color: #eee !important;
+   }
+
+   #about-us  .table-striped tbody tr:nth-of-type( even ),
+   #user-list .table-striped tbody:nth-of-type( even ) tr,
+   #blog-list .table-striped tbody tr:nth-of-type( even ) {
+      background-color: #fff;
+   }
+}
+
+@media only screen and (min-width: 801px) {
+
+   #user-list .table-striped thead,
+   #about-us  .table-striped thead,
+   #blog-list .table-striped thead {
+      background-color: #ddd;
+   }
+
+   #about-us  .table-striped tbody tr:nth-of-type( even ),
+   #user-list .table-striped tbody:nth-of-type( even ) tr,
+   #blog-list .table-striped tbody tr:nth-of-type( even ) {
+      background-color: #eee !important;
+   }
+
+   #about-us  .table-striped tbody tr:nth-of-type( odd ),
+   #user-list .table-striped tbody:nth-of-type( odd ) tr,
+   #blog-list .table-striped tbody tr:nth-of-type( odd ) {
+      background-color: #fff;
+   }
+}
+
+table.table {
+   margin-top: 20px;
+}

@@ -1,0 +1,151 @@
+.menu-container {
+   background: url(../images/z.jpg) no-repeat;
+   background-size: 100%;
+   width: 100%;
+}
+
+.pe {
+   color: #6a6869;
+}
+
+.nt {
+   color: #eb4a9b;
+}
+
+.at {
+   color: #21aeee;
+}
+
+.on {
+   color: #0f9f24;
+}
+
+.ix {
+   color: #fed875;
+}
+
+a.more {
+   color: #21aeee;
+}
+
+h1.title-area {
+   display: block;
+   margin: 0 auto;
+   padding: 55px;
+   font-family: Cursive;
+   font-size: 55px;
+   text-align: center;
+}
+
+.menu-container .navigation-header {
+   margin: 0 auto;
+}
+
+.navigation {
+   margin-top: 25px;
+   padding: 0 15px;
+}
+
+.navigation ul {
+   list-style: none;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+
+.navigation li {
+   list-style: none;
+   margin-bottom: 10px;
+   /*padding: 5px;*/
+}
+
+.navigation a {
+   color: white;
+   display: inline-block;
+   font-family: Cursive;
+   font-size: 20px;
+   letter-spacing: 1px;
+   padding: 15px 20px;
+   position: relative;
+   width: 100%;
+   text-decoration: none;
+   border-bottom: solid gold 5px;
+   border-top: solid gold 5px;
+   background-color: #21aeee;
+}
+
+.navigation a:hover {
+   color: white;
+   background-color: #eb4a9b;
+   border-bottom: solid #eb4a9b 5px;
+   border-top: solid #eb4a9b 5px;
+}
+
+.nav-header {
+   display: block;
+   padding: 3px 15px;
+   font-size: 11px;
+   font-weight: bold;
+   line-height: 20px;
+   color: #999999;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+   text-transform: uppercase;
+}
+
+.navigation li {
+   display: inline-block;
+   /* margin-right: 10px; */
+}
+
+.nav-sidebar {
+   display: block;
+   margin-top: 30px;
+   position: relative;
+   text-align: left;
+   padding: 3px 15px;
+}
+
+.nav-sidebar ul {
+   margin-left: 0;
+   padding-left: 0;
+}
+
+.nav-sidebar li {
+   list-style: none;
+   margin-bottom: 10px;
+   //padding: 5px;
+}
+
+.nav-sidebar a {
+   color: $white;
+   display: inline-block;
+   font-family: Cursive;
+   font-size: 20px;
+   letter-spacing: 1px;
+   padding: 15px 20px;
+   position: relative;
+   width: 100%;
+   text-decoration: none;
+   border-bottom: solid gold 5px;
+   border-top: solid gold 5px;
+   background-color: #21aeee;
+}
+
+.nav-sidebar a:hover,
+.nav-sidebar a:focus {
+   color: white;
+   background-color: #eb4a9b;
+   border-bottom: solid #eb4a9b 5px;
+   border-top: solid #eb4a9b 5px;
+}
+
+@media screen and (min-width: 825px) {
+
+   .menu-container {
+      height: 280px;
+   }
+
+   .navigation {
+      padding: 5px;
+   }
+}

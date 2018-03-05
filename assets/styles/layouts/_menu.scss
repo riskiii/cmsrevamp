@@ -1,0 +1,300 @@
+.menu-container {
+   background: url(../images/z.jpg) no-repeat;
+   background-size: 100%;
+   width: 100%;
+   height: 100%;
+}
+
+.pe {
+   color: #6a6869;
+}
+
+.nt {
+   color: #eb4a9b;
+}
+
+.at {
+   color: #21aeee;
+}
+
+.on {
+   color: #0f9f24;
+}
+
+.ix {
+   color: #fed875;
+}
+
+a.more {
+   color: #21aeee;
+}
+
+h1.title-area {
+   display: block;
+   margin: 0 auto;
+   padding: 30px;
+   font-family: Cursive;
+   text-shadow: 1px 1px 2px $black;
+   font-size: 30px;
+   text-align: center;
+}
+
+.menu-container .navigation-header {
+   margin: 0 auto;
+}
+
+.navigation {
+   margin-top: 25px;
+   padding: 0 15px;
+}
+
+.navigation ul {
+   list-style: none;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+
+.navigation li {
+   list-style: none;
+   margin-bottom: 10px;
+   /*padding: 5px;*/
+}
+
+.navigation a {
+   color: white;
+   display: inline-block;
+   font-family: Cursive;
+   text-shadow: 1px 1px 2px $black;
+   font-size: 20px;
+   letter-spacing: 1px;
+   padding: 15px 20px;
+   position: relative;
+   width: 100%;
+   text-decoration: none;
+   border-bottom: solid gold 5px;
+   border-top: solid gold 5px;
+   background-color: #21aeee;
+}
+
+.navigation a:hover {
+   color: white;
+   background-color: #eb4a9b;
+   border-bottom: solid #eb4a9b 5px;
+   border-top: solid #eb4a9b 5px;
+}
+
+.nav-header {
+   display: block;
+   padding: 3px 15px;
+   font-size: 11px;
+   font-weight: bold;
+   line-height: 20px;
+   color: #999999;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+   text-transform: uppercase;
+}
+
+.navigation li {
+   //display: inline-block;
+   /* margin-right: 10px; */
+}
+
+.nav-sidebar {
+   display: block;
+   margin-top: 30px;
+   position: relative;
+   text-align: left;
+   //padding: 3px 15px;
+}
+
+.nav-sidebar ul {
+   margin-left: 0;
+   padding-left: 0;
+}
+
+.nav-sidebar li {
+   list-style: none;
+   margin-bottom: 10px;
+   //padding: 5px;
+}
+
+.nav-sidebar a {
+   color: $white;
+   display: inline-block;
+   font-family: Cursive;
+   text-shadow: 1px 1px 2px $black;
+   font-size: 20px;
+   letter-spacing: 1px;
+   padding: 15px 20px;
+   position: relative;
+   width: 100%;
+   text-decoration: none;
+   border-bottom: solid gold 5px;
+   border-top: solid gold 5px;
+   background-color: #21aeee;
+}
+
+.nav-sidebar a:hover,
+.nav-sidebar a:focus {
+   color: white;
+   background-color: #eb4a9b;
+   border-bottom: solid #eb4a9b 5px;
+   border-top: solid #eb4a9b 5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+   color: #333;
+   text-shadow: 1px 1px 2px $white;
+   background-color: transparent;
+}
+
+@media screen and (min-width: 825px) {
+
+   .menu-container {
+      //height: 280px;
+      height: 100%;
+   }
+
+   .navigation {
+      padding: 5px;
+   }
+
+   .nav li {
+      display: inline-block;
+      /* margin-right: 10px; */
+   }
+
+   .navigation li {
+      display: inline-block;
+   }
+
+   .nav-sidebar {
+      padding: 3px 15px 3px 0;
+   }
+}
+
+.navbar-default {
+   color: $white;
+   border-bottom: solid gold 5px;
+   border-top: solid gold 5px;
+   background-color: #21aeee;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: $white;
+   font-family: Cursive;
+   text-shadow: 1px 1px 2px $black;
+   font-size: 20px;
+   letter-spacing: 1px;
+   padding: 15px 20px;
+}
+
+.navbar-default .navbar-toggle {
+   border-color: $black;
+}
+
+@media screen and (min-width: 360px) {
+   h1.title-area {
+      padding: 30px 30px 45px;
+   }
+}
+
+@media screen and (min-width: 450px) {
+   h1.title-area {
+      padding: 45px 30px 45px;
+   }
+}
+
+@media screen and (min-width: 550px) {
+   h1.title-area {
+      font-size: 45px;
+      padding: 45px 30px 75px;
+   }
+}
+
+@media screen and (min-width: 620px) {
+   h1.title-area {
+      padding: 55px 30px 115px;
+   }
+}
+
+@media screen and (min-width: 700px) {
+   h1.title-area {
+      padding: 70px 30px 115px;
+   }
+}
+
+@media screen and (min-width: 800px) {
+   h1.title-area {
+      font-size: 70px;
+      padding: 70px 30px 100px;
+   }
+}
+
+@media screen and (min-width: 990px) {
+   h1.title-area {
+      font-size: 70px;
+      padding: 85px 30px 150px;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   h1.title-area {
+      font-size: 70px;
+      padding: 120px 30px 200px;
+   }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: $black;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+   background-color: $white;
+}
+
+// https://coderwall.com/p/wpjw4w/change-the-bootstrap-navbar-breakpoint
+@media (max-width: 990px) {
+   .navbar-header {
+      float: none;
+   }
+   .navbar-left,.navbar-right {
+      float: none !important;
+   }
+   .navbar-toggle {
+      display: block;
+   }
+   .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+   }
+   .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+   }
+   .navbar-collapse.collapse {
+      display: none!important;
+   }
+   .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+   }
+   .navbar-nav>li {
+      float: none;
+   }
+   .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+   .collapse.in{
+      display:block !important;
+   }
+}
+
+.navbar {
+   margin-bottom: 0;
+}

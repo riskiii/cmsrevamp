@@ -1,0 +1,8 @@
+{
+   "name": "dgs-cms-starter",
+   "dependencies": {
+      "jquery": "1.x",
+      "bootstrap-sass": "3.3.6",
+      "font-awesome": "^4.6.3"
+   }
+}

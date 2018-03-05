@@ -1,0 +1,57 @@
+pre {
+   font-family: Courier;
+}
+
+$black: #000;
+
+body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 16px;
+   line-height: 1.42857;
+   color: #333;
+   background-color: #fff;
+}
+
+#tinymce.mce-content-body {
+   margin: 5px 15px;
+}
+
+#tinymce.mce-content-body p {
+   font-size: 16px !important;
+   font-weight: normal;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+   margin-top: 30px;
+   margin-bottom: 0;
+}
+
+div.col-sm-8 {
+   margin-bottom: 10px;
+}
+
+span.my-edit {
+   font-size: 14px;
+}
+
+h1, h2 {
+   margin-bottom: 10px;
+}
+
+
+blockquote {
+   border-left: 0;
+   color: $black;
+   margin: 0;
+   padding: 24px 40px;
+}
+
+blockquote::before {
+   content: "\201C";
+   display: block;
+   font-size: 60px;
+   height: 0;
+   left: -55px;
+   position: relative;
+   top: -55px;
+}
